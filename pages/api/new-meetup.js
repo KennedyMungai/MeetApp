@@ -3,7 +3,7 @@ import { mongo_key } from "./api-keys"
 
 // /api/new-meetup
 
-const handler = (req, res) => 
+const handler = async (req, res) => 
 {
     if (req.method === 'POST')
     {
