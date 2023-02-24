@@ -1,4 +1,3 @@
-import Layout from "../../components/layout/Layout"
 import NewMeetupForm from "../../components/meetups/NewMeetupForm"
 
 const NewMeetupPage = () =>
@@ -9,9 +8,7 @@ const NewMeetupPage = () =>
     }
 
     return (
-        <Layout>
-            <NewMeetupForm onAddMeetup={addMeetupHandler} />
-        </Layout>
+        <NewMeetupForm onAddMeetup={addMeetupHandler} />
     )
 }
 
