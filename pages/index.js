@@ -10,98 +10,98 @@ const DUMMY_MEETUPS =
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm2',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm3',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm4',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm5',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm6',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm7',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm8',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm9',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm10',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm11',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm12',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm13',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm14',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
             description: 'Nairobi in the 1970s'
         },
         {
-            id: 'm1',
+            id: 'm15',
             title: 'A first meetup',
             image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/NBO5.jpg/267px-NBO5.jpg',
             address: 'Nairobi City, Nairobi',
