@@ -111,7 +111,7 @@ const DUMMY_MEETUPS =
 
     ]
 
-const HomePage = () =>
+const HomePage = (props) =>
 {
     const [loadedMeetups, setLoadedMeetups] = useState([])
 
@@ -126,6 +126,13 @@ const HomePage = () =>
     )
 }
 
-export async function getStaticProps() { }
+export async function getStaticProps()
+{
+    return {
+        props: {
+            meetups: DUMMY_MEETUPS
+        }
+    }
+}
 
 export default HomePage
