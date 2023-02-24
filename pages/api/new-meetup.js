@@ -11,7 +11,7 @@ const handler = async (req, res) =>
 
         const { title, image, address, description } = data
 
-        MongoClient.connect(mongo_key)
+        await MongoClient.connect(mongo_key)
     }
 }
 
