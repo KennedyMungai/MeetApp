@@ -1,3 +1,4 @@
+import { MongoClient } from "mongodb"
 import MeetupList from "../components/meetups/MeetupList"
 
 const DUMMY_MEETUPS =
