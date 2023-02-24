@@ -122,7 +122,7 @@ const HomePage = () =>
 
 
     return (
-        <MeetupList meetups={DUMMY_MEETUPS} />
+        <MeetupList meetups={loadedMeetups} />
     )
 }
 
