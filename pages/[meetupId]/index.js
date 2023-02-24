@@ -1,6 +1,6 @@
 import NewMeetupForm from "../../components/meetups/NewMeetupForm"
 
-const NewMeetupPage = () =>
+const MeetupDetailsPage = () =>
 {
     const addMeetupHandler = (enteredMeetupData) =>
     {
@@ -12,4 +12,4 @@ const NewMeetupPage = () =>
     )
 }
 
-export default NewMeetupPage
+export default MeetupDetailsPage
