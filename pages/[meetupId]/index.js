@@ -1,3 +1,4 @@
+import { MongoClient } from "mongodb"
 import MeetupDetail from "../../components/meetups/MeetupDetail"
 
 const MeetupDetailsPage = () =>
