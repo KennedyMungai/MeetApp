@@ -5,7 +5,7 @@ const MeetupDetail = (props) =>
     const { image, title, address, description } = props
 
     return (
-        <section>
+        <section className={classes.detail}>
             <img
                 src={image}
                 alt={title}
