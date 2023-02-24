@@ -13,6 +13,8 @@ const handler = async (req, res) =>
 
         const client = await MongoClient.connect(mongo_key)
         const db = client.db()
+
+        const meetupsCollection = db.collection('meetups')
     }
 }
 
