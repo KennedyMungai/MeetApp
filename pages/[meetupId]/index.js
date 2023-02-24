@@ -12,8 +12,10 @@ const MeetupDetailsPage = () =>
     )
 }
 
-export async function getStaticProps()
+export async function getStaticProps(context)
 {
+    const meetupId = context.params.meetupId
+
     return {
         props: {
             meetupData: {
