@@ -20,6 +20,12 @@ const handler = async (req, res) =>
         console.log(result)
 
         client.close()
+
+        res.status(201).json(
+            {
+                message: "Meetup inserted"
+            }
+        )
     }
 }
 
