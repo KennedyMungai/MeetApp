@@ -1,8 +1,18 @@
-const NewMeetup = () =>
+import Layout from "../../components/layout/Layout"
+import NewMeetupForm from "../../components/meetups/NewMeetupForm"
+
+const NewMeetupPage = () =>
 {
+    const addMeetupHandler = (enteredMeetupData) =>
+    {
+        console.log(enteredMeetupData)
+    }
+
     return (
-        <div>new-meetup</div>
+        <Layout>
+            <NewMeetupForm onAddMeetup={addMeetupHandler} />
+        </Layout>
     )
 }
 
-export default NewMeetup
+export default NewMeetupPage
