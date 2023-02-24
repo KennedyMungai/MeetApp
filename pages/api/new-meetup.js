@@ -1,3 +1,5 @@
+import { MongoClient } from "mongodb"
+
 // /api/new-meetup
 
 const handler = (req, res) => 
@@ -7,6 +9,8 @@ const handler = (req, res) =>
         const data = req.body
 
         const { title, image, address, description } = data
+
+
     }
 }
 
