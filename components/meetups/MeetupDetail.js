@@ -1,4 +1,4 @@
-const MeetupDetail = () =>
+const MeetupDetail = (props) =>
 {
     return (
         <>
