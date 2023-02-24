@@ -126,6 +126,6 @@ const HomePage = () =>
     )
 }
 
-export function getStaticProps() { }
+export async function getStaticProps() { }
 
 export default HomePage
