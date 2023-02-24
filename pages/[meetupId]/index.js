@@ -14,7 +14,57 @@ const MeetupDetailsPage = () =>
 
 export async function getStaticPaths()
 {
-
+    return {
+        paths: [
+            {
+                params: {
+                    meetupId: 'm1'
+                },
+                params: {
+                    meetupId: 'm2'
+                },
+                params: {
+                    meetupId: 'm3'
+                },
+                params: {
+                    meetupId: 'm4'
+                },
+                params: {
+                    meetupId: 'm5'
+                },
+                params: {
+                    meetupId: 'm6'
+                },
+                params: {
+                    meetupId: 'm7'
+                },
+                params: {
+                    meetupId: 'm8'
+                },
+                params: {
+                    meetupId: 'm9'
+                },
+                params: {
+                    meetupId: 'm10'
+                },
+                params: {
+                    meetupId: 'm11'
+                },
+                params: {
+                    meetupId: 'm12'
+                },
+                params: {
+                    meetupId: 'm13'
+                },
+                params: {
+                    meetupId: 'm14'
+                },
+                params: {
+                    meetupId: 'm15'
+                },
+            }
+        ]
+    }
 }
 
 export async function getStaticProps(context)
