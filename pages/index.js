@@ -117,6 +117,7 @@ const HomePage = () =>
 
     useEffect(() =>
     {
+        setLoadedMeetups(DUMMY_MEETUPS)
     }, [])
 
 
