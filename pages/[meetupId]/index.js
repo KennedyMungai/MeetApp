@@ -8,7 +8,7 @@ const NewMeetupPage = () =>
     }
 
     return (
-        <NewMeetupForm />
+        <NewMeetupForm onAddMeetup={addMeetupHandler} />
     )
 }
 
