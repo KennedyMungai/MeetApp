@@ -1,14 +1,16 @@
 const MeetupDetail = (props) =>
 {
+    const { image, title, address, description } = props
+
     return (
         <>
             <img
-                src={props.image}
-                alt={props.title}
+                src={image}
+                alt={title}
             />
-            <h1>Meetup at Nairobi</h1>
-            <address>Some address</address>
-            <p>We will be meeting up in Nairobi at sunset</p>
+            <h1>{title}</h1>
+            <address>{address}</address>
+            <p>{description}</p>
         </>
     )
 }
