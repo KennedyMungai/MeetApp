@@ -1,5 +1,6 @@
 import { MongoClient } from "mongodb"
 import MeetupDetail from "../../components/meetups/MeetupDetail"
+import { mongo_key } from "../api/api-keys"
 
 const MeetupDetailsPage = () =>
 {
@@ -15,6 +16,13 @@ const MeetupDetailsPage = () =>
 
 export async function getStaticPaths()
 {
+    const client = await MongoClient.connect(mongo_key)
+    const db = client.db()
+
+    const meetupsCollection = db.collection('meetups')
+
+    const meetups = await meetupsCollection.find({}, { _id: 1 })
+
     return {
         fallback: true,
         paths: [
