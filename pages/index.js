@@ -126,11 +126,11 @@ export async function getStaticProps()
 
     const meetupsCollection = db.collection('meetups')
 
-    const result = await meetupsCollection.findAll().toArray()
+    const meetups = await meetupsCollection.findAll().toArray()
 
     return {
         props: {
-            meetups: DUMMY_MEETUPS
+            meetups
         },
         revalidate: 10
     }
