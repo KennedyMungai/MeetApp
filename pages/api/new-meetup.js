@@ -1,6 +1,6 @@
 // /api/new-meetup
 
-const handler = () => 
+const handler = (req, res) => 
 {
 
 }
