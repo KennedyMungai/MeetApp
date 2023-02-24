@@ -113,7 +113,7 @@ const DUMMY_MEETUPS =
 const HomePage = (props) =>
 {
     return (
-        <MeetupList meetups={loadedMeetups} />
+        <MeetupList meetups={props.meetups} />
     )
 }
 
