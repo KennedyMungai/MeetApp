@@ -1,7 +1,9 @@
+import MeetupList from "../components/meetups/MeetupList"
+
 const HomePage = () =>
 {
     return (
-        <div>index</div>
+        <MeetupList meetups={ } />
     )
 }
 
