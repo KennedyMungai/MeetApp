@@ -1,3 +1,5 @@
+import classes from './MeetupDetail.module.css'
+
 const MeetupDetail = (props) =>
 {
     const { image, title, address, description } = props
